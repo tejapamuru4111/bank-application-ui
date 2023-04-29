@@ -1,0 +1,29 @@
+.not-found-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.not-found-img {
+    height: 200px;
+    width: 200px;
+}
+
+.not-found-home-button {
+    background-color: rgb(90, 234, 71);
+    color: rgb(249, 249, 22);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 15px 8px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.not-found-home-button:hover {
+    background-color: rgb(206, 240, 16);
+    color: rgb(9, 238, 16);
+}

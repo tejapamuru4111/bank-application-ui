@@ -1,0 +1,91 @@
+.users-bg-card{
+    background-color: #a7d5d7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width : 700px) {
+    .users-bg-card {
+        width: 50vw;
+        margin: auto;
+    }
+}
+
+
+.users-card-heading{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(44, 50, 224);
+    margin-right: auto;
+}
+
+.users-list-card {
+    padding-left: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.users-list-item {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.users-user-card {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(177, 245, 245);
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+.users-user-card-profile {
+    background-color: #9ce61d;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.users-user-card-name-id-card {
+    margin-left: 20px;
+}
+
+.users-user-card-name{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #0e939a;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.users-user-card-id {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #7b2828;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.users-user-account-balence {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: auto;
+}
+
+.user-balence-span{
+    font-style: italic;
+    color: #09f409;
+}

@@ -1,0 +1,43 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(205, 190, 169);
+    position: sticky;
+    top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media screen and (min-width : 700px) {
+    .header-container {
+        width: 50vw;
+        margin: auto;
+    }
+}
+
+
+.bank-header-logo{
+    height: 60px;
+    width: 60px;
+    color: rgb(12, 254, 254);
+}
+
+.header-logout-button {
+    background-color: rgb(242, 27, 20);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 15px 8px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-logout-button:hover {
+    background-color: rgb(255, 255, 254);
+    color: rgb(245, 85, 11);
+}

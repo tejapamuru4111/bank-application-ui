@@ -1,0 +1,225 @@
+.popup-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(234, 229, 99);
+    position: sticky;
+    bottom: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+@media screen and (min-width : 700px) {
+    .popup-buttons-container {
+        width: 50vw;
+        margin: auto;
+    }
+}
+
+.withdraw-trigger-button{
+    background-color: rgb(57, 20, 242);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 15px 8px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.withdraw-trigger-button:hover {
+    background-color: rgb(247, 6, 6);
+}
+
+.deposit-trigger-button {
+    background-color: rgb(241, 9, 140);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 15px 8px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.deposit-trigger-button:hover {
+    background-color: rgb(48, 205, 253);
+}
+
+.popup-content-card-buttons-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popup-bg-card {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popup-content-card {
+    align-self: center;
+}
+
+.popup-balence {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.popup-balence-span {
+    font-style: italic;
+    color: #0d840b;
+}
+
+.popup-input-ammount {
+    width: 30vw;
+    border: 1px solid #c3f50f;
+    border-radius: 20px;
+    height: 30px;
+    color: #212415;
+}
+
+.popup-input-ammount:focus {
+    background-color: rgb(166, 238, 214);
+}
+
+.popup-submit-msg {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: rgb(249, 76, 243);
+}
+
+.transactions-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.transactions-user-card {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(177, 245, 245);
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+.transactions-user-card-profile {
+    background-color: #9ce61d;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.trasactions-bg-card{
+    background-color: #a7d5d7;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width : 700px) {
+    .transactions-user-card {
+        width: 90vw;
+    }
+    .trasactions-bg-card {
+        width: 90vw;
+    }
+}
+
+
+.transactions-user-card-name-id-card {
+    margin-left: 20px;
+}
+
+.transactions-user-card-name{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #0e939a;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.transactions-user-card-id {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #7b2828;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.transactions-user-account-balence{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: auto;
+}
+
+.transactions-card-heading {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(7, 7, 250);
+    margin-right: auto;
+}
+
+.transactions-card-err-msg{
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: rgb(250, 56, 7);
+}
+
+.transactions-list-card {
+    list-style-type: none;
+    width: 90%;
+}
+
+.transactions-list-card-item {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+}
+
+.transaction-money-credit-date {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(1, 1, 18);
+}
+
+.transaction-money-credit-ammount {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(54, 204, 12);
+}
+
+.transaction-money-debit-ammount {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(247, 18, 18);
+}
